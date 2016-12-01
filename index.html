@@ -11,6 +11,30 @@
       <meta name="description" content="">
       <meta name="viewport" content="width=device-width, initial-scale=1">
 
+      <style>
+
+    #outerDiv {position:relative; top: 65px; z-index: -1; }
+
+      #main1{
+          position: absolute;
+          width: 90%;
+          visibility: visible;
+
+      }
+      #main2 {
+          position: absolute;
+          width: 90%;
+          visibility: hidden;
+      }
+      #main3{
+          position: absolute;
+          width: 90%;
+          visibility: hidden;
+      }
+
+      </style>
+
+
     </head>
 
     <body>
@@ -19,15 +43,15 @@
         <![endif]-->
 
         <header>
-          <section class="container">
+          <section class="container" >
             <a href="#"><h1>Feedr</h1></a>
             <nav>
               <ul>
                 <li><a href="#">News Source: <span>Source Name</span></a>
                   <ul>
-                      <li><a href="#">Source 1</a></li>
-                      <li><a href="#">Source 2</a></li>
-                      <li><a href="#">Source 3</a></li>
+                      <li id="source1"><a href="#">CNN</a></li>
+                      <li id="source2"><a href="#">Digg News</a></li>
+                      <li id="source3"><a href="#">The Guardian</a></li>
                   </ul>
                 </li>
               </ul>
@@ -49,13 +73,15 @@
             <a href="#" class="popUpAction" target="_blank">Read more from source</a>
           </div>
         </div>
-        <section id="main" class="container">
+
+<div id="outerDiv">
+        <section id="main1" class="container">
           <article class="article">
             <section class="featuredImage">
               <img src="images/article_placeholder_1.jpg" alt="" />
             </section>
             <section class="articleContent">
-                <a href="#"><h3>Test article title</h3></a>
+                <a href="#"><h3>Test article title 1a</h3></a>
                 <h6>Lifestyle</h6>
             </section>
             <section class="impressions">
@@ -68,7 +94,7 @@
               <img src="images/article_placeholder_2.jpg" alt="" />
             </section>
             <section class="articleContent">
-                <a href="#"><h3>Test article title</h3></a>
+                <a href="#"><h3>Test article title 2a</h3></a>
                 <h6>Lifestyle</h6>
             </section>
             <section class="impressions">
@@ -81,7 +107,7 @@
               <img src="images/article_placeholder_2.jpg" alt="" />
             </section>
             <section class="articleContent">
-                <a href="#"><h3>Test article title</h3></a>
+                <a href="#"><h3>Test article title 3a</h3></a>
                 <h6>Lifestyle</h6>
             </section>
             <section class="impressions">
@@ -94,7 +120,7 @@
               <img src="images/article_placeholder_1.jpg" alt="" />
             </section>
             <section class="articleContent">
-                <a href="#"><h3>Test article title</h3></a>
+                <a href="#"><h3>Test article title 4a</h3></a>
                 <h6>Lifestyle</h6>
             </section>
             <section class="impressions">
@@ -103,6 +129,119 @@
             <div class="clearfix"></div>
           </article>
         </section>
+
+
+        <section id="main2" class="container">
+            <article class="article">
+                <section class="featuredImage">
+                    <img src="images/article_placeholder_1.jpg" alt="" />
+                </section>
+                <section class="articleContent">
+                    <a href="#"><h3>Test article title 1b</h3></a>
+                    <h6>Lifestyle</h6>
+                </section>
+                <section class="impressions">
+                    526
+                </section>
+                <div class="clearfix"></div>
+            </article>
+            <article class="article">
+                <section class="featuredImage">
+                    <img src="images/article_placeholder_2.jpg" alt="" />
+                </section>
+                <section class="articleContent">
+                    <a href="#"><h3>Test article title 2b</h3></a>
+                    <h6>Lifestyle</h6>
+                </section>
+                <section class="impressions">
+                    526
+                </section>
+                <div class="clearfix"></div>
+            </article>
+            <article class="article">
+                <section class="featuredImage">
+                    <img src="images/article_placeholder_2.jpg" alt="" />
+                </section>
+                <section class="articleContent">
+                    <a href="#"><h3>Test article title 3b</h3></a>
+                    <h6>Lifestyle</h6>
+                </section>
+                <section class="impressions">
+                    526
+                </section>
+                <div class="clearfix"></div>
+            </article>
+            <article class="article">
+                <section class="featuredImage">
+                    <img src="images/article_placeholder_1.jpg" alt="" />
+                </section>
+                <section class="articleContent">
+                    <a href="#"><h3>Test article title 4b</h3></a>
+                    <h6>Lifestyle</h6>
+                </section>
+                <section class="impressions">
+                    526
+                </section>
+                <div class="clearfix"></div>
+            </article>
+        </section>
+
+        <section id="main3" class="container">
+            <article class="article">
+                <section class="featuredImage">
+                    <img src="images/article_placeholder_1.jpg" alt="" />
+                </section>
+                <section class="articleContent">
+                    <a href="#"><h3>Test article title</h3></a>
+                    <h6>Lifestyle</h6>
+                </section>
+                <section class="impressions">
+                    526
+                </section>
+                <div class="clearfix"></div>
+            </article>
+            <article class="article">
+                <section class="featuredImage">
+                    <img src="images/article_placeholder_2.jpg" alt="" />
+                </section>
+                <section class="articleContent">
+                    <a href="#"><h3>Test article title</h3></a>
+                    <h6>Lifestyle</h6>
+                </section>
+                <section class="impressions">
+                    526
+                </section>
+                <div class="clearfix"></div>
+            </article>
+            <article class="article">
+                <section class="featuredImage">
+                    <img src="images/article_placeholder_2.jpg" alt="" />
+                </section>
+                <section class="articleContent">
+                    <a href="#"><h3>Test article title</h3></a>
+                    <h6>Lifestyle</h6>
+                </section>
+                <section class="impressions">
+                    526
+                </section>
+                <div class="clearfix"></div>
+            </article>
+            <article class="article">
+                <section class="featuredImage">
+                    <img src="images/article_placeholder_1.jpg" alt="" />
+                </section>
+                <section class="articleContent">
+                    <a href="#"><h3>Test article title</h3></a>
+                    <h6>Lifestyle</h6>
+                </section>
+                <section class="impressions">
+                    526
+                </section>
+                <div class="clearfix"></div>
+            </article>
+        </section>
+</div>
+
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
